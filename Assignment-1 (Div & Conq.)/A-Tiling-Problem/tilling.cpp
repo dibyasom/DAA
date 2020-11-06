@@ -69,6 +69,7 @@ int engage_tiling(ll** arr, int n, int x, int y)
 	return 0; 
 } 
 
+
 void find_marked_tile(ll** arr, ll x, ll y, ll n, ll* r, ll* c){
 	for (int i = x; i < n; i++)
 		for (int j = y; j < n; j++)
